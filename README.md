@@ -4,10 +4,10 @@
 - [1 Overview of Project](#1-overview-of-project)
   - [1.1 Purpose](#11-purpose)
   - [1.2 Tools Required](#12-tools-required)
--  [2 Analysis & Challenges](#2-analysis--challenges)
-  -  [2.1 Outcomes Based on Launch Date](#21-outcomes-based-on-launch-date)
-  -  [2.2 Outcomes Based on Goals](#22-outcomes-based-on-goals)
-  -  [2.3 Challenges](#23-challenges)
+- [2 Analysis & Challenges](#2-analysis--challenges)
+  - [2.1 Theater Outcomes By Launch Date](#21-theater-outcomes-by-launch-date)
+  - [2.2 Outcomes Based on Goals](#22-outcomes-based-on-goals)
+  - [2.3 Challenges](#23-challenges)
 -  [3 Results](#3-results)
 
 ## 1 Overview of Project
@@ -27,7 +27,7 @@ Using insights derived from Excel, the purpose of this project is to help Louise
 
 ## 2 Analysis & Challenges 
 
-### 2.1 Theater Outcomes Based on Launch Date
+### 2.1 Theater Outcomes by Launch Date
 
 Using a pivot table and graphing functionalities in Excel, a visualization was created to show campaign outcomes ("successful", "failed", and "canceled") in relation to its launch date. 
 
@@ -45,7 +45,7 @@ Note, Louise is only interested in data for campaigns that already completed and
 
 Lastly, a line chart was created from the pivot table to visualize the relationship between theater campaign outcomes and their launch dates. 
 
-### 2.2 Theater Outcomes Based on Goals
+### 2.2 Outcomes Based on Goals
 
 The Outcomes Based on Goals chart was created using the percentages of successful, failed, and canceled plays based on the funding goal amount. In a new sheet, a new table was created with the following column names: 
 
@@ -85,6 +85,15 @@ Potential challenges one could run into when performing this type of analysis is
 
 ## 3 Results 
 
+### 3.1 Theater Outcomes By Launch Date
 
 ![](images/theater_outcomes_vs_launch.png)
+
+The month of May had the most number of campaigns launched throughout the month (166) and therefore had the most successful number of projects (111) (and the most number of failed projects - 52). June had the second most amount of theater Kickstarter campaign launches (153), where 100 of them were successful and 49 failed. Alternatively, November and December had the least amount of Kickstarter launches and thus had the least amount of successful campaigns. 
+
+No Kickstarter campaigns were launched in the month of February; potentially due to February being the shortest month of the year and the season that February falls in does not seem to generally carry a large amount of campaigns overall. The month of January and March have the same amount of successful *and* failed campaigns. However, January has the greatest number of failed campaigns of all 12 months. Conversely, October has zero cancelled campaigns. 
+
+Generally, there does not seem to be a noticeable pattern of canceled campaigns based on month; however, while May and June both have the highest number of launched campaigns throughout the year, they have a similar number of cancellations compared to the rest of the sample size. 
+
+
 
