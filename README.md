@@ -34,11 +34,45 @@ Filters | Columns | Rows | Values
 ------- | ------- | ---- | ------
 Parent Category, Years | Outcomes | Date Created Conversion | *Count of* Outcomes
 
-Once the pivot table is created, the parent category filter should be adjusted to only show results for the **Theater** category like the image below: 
+Once the pivot table is created, group the row labels column by month to clean up the data. The parent category filter should then be adjusted to only show results for the **Theater** category like the image below: 
 
 ![](images/pivot_outcomes_vs_launch.png)
 
-Note, Louise is only interested in data for campaigns that already completed and are listed as either "successful", "failed", or "canceled" - ensure column labels do **not** include "live" campaigns.
+Note, Louise is only interested in data for campaigns that already completed and are listed as either "successful", "failed", or "canceled" - ensure column labels do **not** include "live" campaigns. Then, sort campaign outcomes in descending order so "successful" appears first. 
+
+Lastly, a line chart was created from the pivot table to visualize the relationship between theater campaign outcomes and their launch dates. 
+
+### Outcomes Based on Goals
+
+The Outcomes Based on Goals chart was created using the percentages of successful, failed, and canceled plays based on the funding goal amount. In a new sheet, a new table was created with the following column names: 
+
+- Goal
+- Number Successful
+- Number Failed
+- Number Canceled
+- Total Projects
+- Percentage Successful
+- Percentage Failed
+- Percentage Canceled
+
+In the goal column, goal amounts were grouped into the following ranges: 
+
+- Less than 1000
+- 1000 to 4999
+- 5000 to 9999
+- 10000 to 14999
+- 15000 to 19999
+- 20000 to 24999
+- 25000 to 29999
+- 30000 to 349999
+- 35000 to 39999
+- 40000 to 44999
+- Greater than 50000
+
+
+Using the `COUNTIFS()` function, the number successful, failed, and canceled were calculated using the ranges listed in the Goal column, filtering the Outcome column, and the Subcategory column using *plays* as the criteria. To calculate the number of total projects, the `SUM()` function was used to add up the number of projects that were deemed a success, a failure, or a cancellation. Then, the percentage of each outcome was calculated for each type of outcome. The full table is shown below: 
+
+
 
 ## 3 Results 
 
