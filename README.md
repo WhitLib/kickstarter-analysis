@@ -9,6 +9,8 @@
   - [2.2 Outcomes Based on Goals](#22-outcomes-based-on-goals)
   - [2.3 Challenges](#23-challenges)
 -  [3 Results](#3-results)
+  - [3.1 Theater Outcomes by Launch Date](#31-theater-outcomes-by-launch-date)
+  - [3.2 Outcomes Based on Goals](#32-outcomes-based-on-goals)
 
 ## 1 Overview of Project
 
@@ -95,5 +97,12 @@ No Kickstarter campaigns were launched in the month of February; potentially due
 
 Generally, there does not seem to be a noticeable pattern of canceled campaigns based on month; however, while May and June both have the highest number of launched campaigns throughout the year, they have a similar number of cancellations compared to the rest of the sample size. 
 
+### 3.2 Outcomes Based on Goals
+
+![](images/outcomes_vs_goals.png)
+
+Based on the chart above, the most successful number of campaigns had a goal funding amount of less than $1,000 - followed by campaigns with a goal between $1,000 to $4,999 (<$1000 had a 76% success rate and $1000-$4999 had a 73% success rate). On the other hand, campaigns with a funding goal amount of greater than $50,000 had the least number of campaigns with that funding goal range (16), the second lowest percentage of successful projects (13%), but the second highest percentage of failed ones (88%).
+
+Ultimately, based on the data, it can be generally assumed that lower goals - less than $4,999 - have a higher chance of succeeding as opposed to higher ones - >= $45,000. 
 
 
