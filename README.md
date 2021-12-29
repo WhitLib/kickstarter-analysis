@@ -9,8 +9,10 @@
   - [2.2 Outcomes Based on Goals](#22-outcomes-based-on-goals)
   - [2.3 Challenges](#23-challenges)
 -  [3 Results](#3-results)
-  - [3.1 Theater Outcomes by Launch Date](#31-theater-outcomes-by-launch-date)
-  - [3.2 Outcomes Based on Goals](#32-outcomes-based-on-goals)
+     - [3.1 Theater Outcomes by Launch Date](#31-theater-outcomes-by-launch-date)
+      - [3.2 Outcomes Based on Goals](#32-outcomes-based-on-goals)
+     - [3.3 Limitations](#33-limitations)
+      - [3.4 Other Visualizations](#34-other-visualizations)
 
 ## 1 Overview of Project
 
@@ -105,4 +107,18 @@ Based on the chart above, the most successful number of campaigns had a goal fun
 
 Ultimately, based on the data, it can be generally assumed that lower goals - less than $4,999 - have a higher chance of succeeding as opposed to higher ones - >= $45,000. 
 
+### 3.3 Limitations 
 
+Some limitations to this Kickstarter dataset are timeframe and lack of data updates. The most recent creation date for any Kickstarter campaign within the dataset was in 2017 which could provide an inaccurate and out-of-date portrayal of campaign success. Due to the COVID-19 pandemic, this data could paint a different representation of the state of Kickstarter campaigns if the data included campaigns through 2020. It can be assumed that this additional information could have provided Louise with more context of how *Fever* would fare in the current state of the economy. 
+
+### 3.4 Other Visualizations 
+
+Other visualizations and tables that could provide additional insight for Louise are:
+
+*Theater Outcomes based on Number of Backers*
+
+This table and visualization could reinforce previous findings that certain months throughout the year are more likely to attract a greater number of backers as opposed to other months. This data could give Louise some perspective of how her campaign backers fared against others. 
+
+*Theater Outcomes based on Average Donation*
+
+This table and visualization could provide interesting information for Louise to see how other campaigns fared against *Fever* in average donations. Since Louise had come close to her fundraising goal, it could provide additional insight on her donors and determine whether there is a correlation between time of year and the average donation amount. 
